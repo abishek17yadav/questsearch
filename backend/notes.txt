@@ -1,0 +1,38 @@
+data storage - aisa kuch jaha par hum sare user ki info store kar sakte hai  very hard to stpre different types of data
+
+database- it can store any data image text video anything
+
+types of database = sql and no sql
+
+sql- data is stored in rows and column
+no sql- here data is stored in objects way
+{
+    age :21,
+    name: Abishek
+
+}
+no sql---mongodb is the database name which follows no sql
+
+database comes in the backend part
+in backedn we have 2 servers
+1. Application servers = Node js  = handle routes and req and res etc.. things doing everything like login log out authentication ect... except data related works 
+it will work first and if it needs any dayta then it will request  to the database server and fetch it from there and use it
+
+
+2.database servers = mongodb
+Database ->collection-> documents 
+collections - all the data in a project like sales data customer data, product data etc all are collectionslike customer collection or sales collections or users collections
+
+documents -from customer collection if we see 1 customer data then that data is a document
+schemas-
+keys-
+models-
+
+IN CODE                IN Database
+------------------------------------------
+mongoose.connect -> database is created
+model create     -> collection is created
+Create code           -> we create document
+
+abishek01yadav
+uPO3Ww9EsMidY6GX

@@ -33,7 +33,7 @@ function App() {
         if (!debouncedQuery) return; // Avoid fetching if query is empty
         setLoading(true);
         try {
-            const res = await axios.get('http://localhost:5000/api/questions', {
+            const res = await axios.get('https://questsearch-1.onrender.com/api/questions', {
                 params: { title: debouncedQuery, page, limit: 5 }
             });
             setQuestions(res.data.questions);
